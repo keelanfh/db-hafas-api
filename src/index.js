@@ -6,7 +6,7 @@ const createApi = require("..");
 // pro tip: pipe this script into `pino-pretty` to get nice logs
 
 const config = {
-  hostname: process.env.HOSTNAME || "n0lc8.sse.codesandbox.io",
+  hostname: process.env.HOSTNAME || "db-rest-api.herokuapp.com",
   port: process.env.PORT || 80, // todo [breaking]: remove, not necessary
   name: "db-rest",
   description: "An HTTP API for Deutsche Bahn.",
