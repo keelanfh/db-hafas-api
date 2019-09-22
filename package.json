@@ -1,0 +1,16 @@
+{
+  "name": "node-sandbox",
+  "version": "1.0.0",
+  "description": "Simple Node Sandbox",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon src/index.js localhost 8080"
+  },
+  "dependencies": {
+    "hafas-client": "4.6.0",
+    "hafas-rest-api": "2.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "1.18.4"
+  }
+}
